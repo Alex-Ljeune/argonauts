@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2021_02_08_074355) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "argonauts", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
