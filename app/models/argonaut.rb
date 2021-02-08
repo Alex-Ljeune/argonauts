@@ -1,0 +1,2 @@
+class Argonaut < ApplicationRecord
+end
